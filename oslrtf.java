@@ -5,7 +5,7 @@ static int i,j,temp,temp1,temp2,temp_bust1,temp_bust2,temp_bust3;
 static int []bt={2,4,8};
 static int []id={2132,2102,2153};
 static int []arrival_time={0,0,0};
-public int m1()
+public int bust1()
 {
 if(bt[0] >bt[1] && bt[0] > bt[2])
 {
@@ -30,7 +30,7 @@ for(int i=bt[2];i>=bt[2]-4;i--)
 return 4;
 }
 
-public int m2()
+public int id2()
 {
      if (id[0]<id[1] && id[0]<id[2])
   {
@@ -62,7 +62,7 @@ public int m2()
        }
  return 1;
 }
-public int m3()
+public int id1()
 {
 	 if (id[0]<id[1] && id[0]<id[2])
 	 {	 
@@ -85,7 +85,7 @@ public int m3()
 	 }
 	 return 1;
 }
-public int m4()
+public int bust2()
 {
 	if(bt[0]> bt[1] && bt[1]>bt[0])
 	{
@@ -271,10 +271,10 @@ temp1=id[1];
 temp2=id[2];
 
 osproject os=new osproject();
-os.m1();
-os.m2();
-os.m3();
-os.m4();
+os.bust1();
+os.id();
+os.id1();
+os.bust2();
 os.m5();
 os.m6();
 os.m7();
