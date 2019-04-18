@@ -326,6 +326,7 @@ System.out.println("a\t\t"+temp+"\t\t"+arrival_time[0]+"\t\t\t "+completion_time
 
 System.out.println("b\t\t"+temp1+"\t\t"+arrival_time[1]+"\t\t\t "+completion_time_b +" \t\t\t"+temp_bust2+"\t\t\t"+turn_around_time_b+"\t\t\t"+average_turn_around_time+"\t\t\t"+waiting_time_b+"\t\t    "+average_waiting_time);
 
+	
 System.out.println("c\t\t"+temp2+"\t\t"+arrival_time[2]+"\t\t\t "+completion_time_c +" \t\t\t"+temp_bust3+"\t\t\t"+turn_around_time_c+"\t\t\t         \t\t"+waiting_time_c+"\t                      ");
 }
 }
