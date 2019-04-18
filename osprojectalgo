@@ -281,11 +281,11 @@ os.m7();
 os.m8();
 os.m9();
 os.m10();
-float completion_time_b =os.m1()+os.m2()+os.m3()+os.m4()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9();
+float completion_time_b =os.bust1()+os.id()+os.bust2()+os.id1()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9();
 
-float completion_time_a =os.m1()+os.m2()+os.m3()+os.m4()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9()+os.m10();
+float completion_time_a =os.bust1()+os.id()+os.bust2()+os.id1()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9()+os.m10();
 
-float completion_time_c =os.m1()+os.m2()+os.m3()+os.m4()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9()+os.m10()+1;
+float completion_time_c =os.bust1()+os.id()+os.bust2()+os.id1()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9()+os.m10()+1;
 
 float turn_around_time_a=completion_time_a - arrival_time[0];
 float turn_around_time_b=completion_time_b - arrival_time[1];
