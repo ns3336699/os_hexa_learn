@@ -30,7 +30,7 @@ for(int i=bt[2];i>=bt[2]-4;i--)
 return 4;
 }
 
-public int id2()
+public int id()
 {
      if (id[0]<id[1] && id[0]<id[2])
   {
