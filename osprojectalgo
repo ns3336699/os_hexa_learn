@@ -283,7 +283,7 @@ os.m9();
 os.m10();
 float completion_time_b =os.bust1()+os.id1()+os.id2()+os.bust2()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9();
 
-float completion_time_a =os.bust1()+os.id1()+os.id2()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9()+os.m10();
+float completion_time_a =os.bust1()+os.id1()+os.id2()+os.bust2()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9()+os.m10();
 
 float completion_time_c =os.bust1()+os.id1()+os.id2()+os.bust2()+os.m5()+os.m6()+os.m7()+os.m8()+os.m9()+os.m10()+1;
 
